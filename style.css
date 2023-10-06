@@ -1,0 +1,47 @@
+body{
+    font-family: "Open Sans";
+    color: ghostwhite;
+    background-color: lightslategrey;
+}
+
+h2{
+    margin-top: -5px;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    background-color: grey;
+    border: 3px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+    
+.célula {
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.botão-recarregar{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 10px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
