@@ -23,7 +23,7 @@ h2{
     justify-content: space-evenly;
 }
     
-.célula {
+.celula {
     width: 75px;
     height: 65px;
     font-size: 30pt;
@@ -34,7 +34,7 @@ h2{
     background-color: whitesmoke;
 }
 
-.botão-recarregar{
+.botao-recarregar{
     display: block;
     margin: 0 auto;
     margin-top: 20px;
