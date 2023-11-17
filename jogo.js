@@ -1,4 +1,4 @@
-const celulas = document.querySelectorAll("celula");
+const celulas = document.querySelectorAll(".celula");
 
 let checarturno = true;
 let turno;
@@ -12,7 +12,7 @@ document.addEventListener("click", (event) => {
     if(event.target.matches(".celula") && !jogoAcabou) {
         jogar(event.target.id);
  }
-})
+});
 
 function jogar(id) {
     const celula = document.getElementById(id);
