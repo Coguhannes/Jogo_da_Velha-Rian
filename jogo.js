@@ -1,12 +1,12 @@
-const celulas = document.querySelectorAll("celula")
+const celulas = document.querySelectorAll("celula");
 
-let checarturno = true
+let checarturno = true;
 let turno;
 
-const JOGADOR_X = "X"
-const JOGADOR_O = "O"
+const JOGADOR_X = "X";
+const JOGADOR_O = "O";
 
-let jogoAcabou = false
+let jogoAcabou = false;
 
 document.addEventListener("click", (event) => {
     if(event.target.matches(".celula") && !jogoAcabou) {
